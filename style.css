@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 1060px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header__container {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(160, 160, 110);
+}
+.header__nav {
+
+}
+/* .header__nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+/* } */
+.header__nav-item {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header__nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
